@@ -31,7 +31,15 @@ const SearchFilters= () => {
                     placeholder={filter.placeholder}
                     w="fit-content"
                     p="2"
-                    onChange={(e)=>searchProperties({[filter.queryName]:e.target.value})}
+                    onChange={(e)=>{
+                        if(e.target.value){
+                            searchProperties({[filter.queryName]:e.target.value})
+                        }
+                        else{
+                            searchProperties({[filter.queryName]:filter.defaultValue})
+                        }
+                        // searchProperties({[filter.queryName]:e.target.value})
+                    }}
                     >
                         {filter?.items?.map((item)=>(
                             <option value={item.value} key={item.value}>

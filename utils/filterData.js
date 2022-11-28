@@ -6,6 +6,7 @@ export const filterData = [
       ],
       placeholder: 'Purpose',
       queryName: 'purpose',
+      defaultValue:'for-rent'
     },
     {
       items: [
@@ -16,6 +17,7 @@ export const filterData = [
       ],
       placeholder: 'Rent Frequency',
       queryName: 'rentFrequency',
+      defaultValue:'yearly'
     },
     {
       items: [
@@ -29,6 +31,7 @@ export const filterData = [
       ],
       placeholder: 'Min Price(AED)',
       queryName: 'minPrice',
+      defaultValue:'0'
     },
     {
       items: [
@@ -51,6 +54,7 @@ export const filterData = [
       ],
       placeholder: 'Max Price(AED)',
       queryName: 'maxPrice',
+      defaultValue: '1000000',
     },
     {
       items: [
@@ -63,6 +67,7 @@ export const filterData = [
       ],
       placeholder: 'Sort',
       queryName: 'sort',
+      defaultValue:'price-desc'
     },
     {
       items: [
@@ -76,6 +81,7 @@ export const filterData = [
       ],
       placeholder: 'Max Area(sqft)',
       queryName: 'areaMax',
+      defaultValue:'35000'
     },
     {
       items: [
@@ -90,8 +96,9 @@ export const filterData = [
         { name: '9', value: '9' },
         { name: '10', value: '10' },
       ],
-      placeholder: 'Rooms',
+      placeholder: 'Rooms(Min)',
       queryName: 'roomsMin',
+      defaultValue:'0'
     },
     {
       items: [
@@ -106,8 +113,9 @@ export const filterData = [
         { name: '9', value: '9' },
         { name: '10', value: '10' },
       ],
-      placeholder: 'Baths',
+      placeholder: 'Baths (Min)',
       queryName: 'bathsMin',
+      defaultValue: '0'
     },
     {
       items: [
@@ -116,6 +124,7 @@ export const filterData = [
       ],
       placeholder: 'Furnish Type',
       queryName: 'furnishingStatus',
+      defaultValue:'furnished'
     },
     {
       items: [
@@ -131,6 +140,7 @@ export const filterData = [
       ],
       placeholder: 'Property Type',
       queryName: 'categoryExternalID',
+      defaultValue:'4'
     },
 
   ];
@@ -150,7 +160,6 @@ export const filterData = [
       locationExternalIDs,
     } = filterValues;
 
-    console.log(filterValues)
   
     const values = [
       {
