@@ -55,7 +55,7 @@ export const filterData = [
     {
       items: [
         { name: 'Lowest Price', value: 'price-asc' },
-        { name: 'Highest Price', value: 'price-des' },
+        { name: 'Highest Price', value: 'price-desc' },
         { name: 'Newest', value: 'date-asc' },
         { name: 'Oldest', value: 'date-desc' },
         { name: 'Verified', value: 'verified-score' },
@@ -66,13 +66,13 @@ export const filterData = [
     },
     {
       items: [
+        { name: '50', value: '50' },
+        { name: '100', value: '100' },
+        { name: '200', value: '200' },
+        { name: '300', value: '300' },
+        { name: '400', value: '400' },
+        { name: '500', value: '500' },
         { name: '1000', value: '1000' },
-        { name: '2000', value: '2000' },
-        { name: '3000', value: '3000' },
-        { name: '4000', value: '4000' },
-        { name: '5000', value: '5000' },
-        { name: '10000', value: '10000' },
-        { name: '20000', value: '20000' },
       ],
       placeholder: 'Max Area(sqft)',
       queryName: 'areaMax',
@@ -132,6 +132,7 @@ export const filterData = [
       placeholder: 'Property Type',
       queryName: 'categoryExternalID',
     },
+
   ];
   
   export const getFilterValues = (filterValues) => {
@@ -145,8 +146,11 @@ export const filterData = [
       roomsMin,
       bathsMin,
       sort,
+      furnishingStatus,
       locationExternalIDs,
     } = filterValues;
+
+    console.log(filterValues)
   
     const values = [
       {
@@ -189,7 +193,13 @@ export const filterData = [
         name: 'categoryExternalID',
         value: categoryExternalID,
       },
+      {
+        name: 'furnishingStatus',
+        value: furnishingStatus
+      }
     ];
+
+    // console.log(values)
   
     return values;
   };
