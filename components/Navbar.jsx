@@ -4,7 +4,6 @@ import {FcMenu,FcHome, FcAbout} from 'react-icons/fc';
 import {BsSearch} from 'react-icons/bs';
 import {FiKey} from 'react-icons/fi';
 
-
 const NavBar=()=>(
     <Flex p="2" borderBottom="1px" borderColor="gray.100">
         <Box fontSize="3xl" color="blue.600" fontWeight="bold">

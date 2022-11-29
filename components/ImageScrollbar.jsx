@@ -10,10 +10,10 @@ const LeftArrow = () => {
     return (
         <Flex justifyContent="center" alignItems="center" marginRight="1">
             <Icon
-                as={FaArrowAltCircleLeft}
-                onClick={()=>scrollPrev()}
-                fontSize="2xl"
-                cursor="pointer"
+            as={FaArrowAltCircleLeft}
+            onClick={()=>scrollPrev()}
+            fontSize="2xl"
+            cursor="pointer"
             />
         </Flex>
     )
@@ -21,14 +21,13 @@ const LeftArrow = () => {
 
 const RightArrow = () => {
     const {scrollNext} = useContext(VisibilityContext);
-
     return (
         <Flex justifyContent="center" alignItems="center" marginRight="1">
             <Icon
-                as={FaArrowAltCircleRight}
-                onClick={()=>scrollNext()}
-                fontSize="2xl"
-                cursor="pointer"
+            as={FaArrowAltCircleRight}
+            onClick={()=>scrollNext()}
+            fontSize="2xl"
+            cursor="pointer"
             />
         </Flex>
     )
@@ -39,7 +38,7 @@ const ImageScrollbar = ({data}) => (
         {data.map((item)=>(
             <Box key={item.id} width="910px" itemId={item.id} overflow="hidden" p="1">
                 <Image placeholder="blur"
-                alt="property"
+                 alt="property"
                  blurDataURL={item.url} 
                  src={item.url} 
                  width={1000} 

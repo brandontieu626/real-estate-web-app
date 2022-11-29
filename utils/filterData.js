@@ -207,8 +207,6 @@ export const filterData = [
         value: furnishingStatus
       }
     ];
-
-    // console.log(values)
-  
+    
     return values;
   };
