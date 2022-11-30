@@ -16,6 +16,10 @@ Also learned how to read and work with JSON data that is sent by the API.
 2. Install Node.js and npm
 3. In the project directory, run:
 
-### `npm start`
+### `npm install`
+
+4. To start the application, run:
+
+### `npm run dev`
 
 4. Open it in http://localhost:3000 to view in browser.
