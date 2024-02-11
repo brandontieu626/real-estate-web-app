@@ -25,7 +25,3 @@ Also learned how to read and work with JSON data that is sent by the API.
 ### `npm run dev`
 
 4. Open it in http://localhost:3000 to view in browser.
-
-## Authors
-
-- [Brandon Tieu](https://github.com/brandontieu626)
