@@ -6,8 +6,8 @@ A web application for searching for properties in the UAE
 
 ## Description
 
-This project was built using React.js and Next.js. Developed this project to improve my front-end skills and learn how to pull from a public API.
-Also learned how to read and work with JSON data that is sent by the API.
+This project was built using React.js and Next.js. I developed this project to improve my front-end skills and learn how to pull from a public API.
+I also wanted to learn how to read and work with JSON data that is sent by an API.
 
 ### Design
 
@@ -25,6 +25,8 @@ Also learned how to read and work with JSON data that is sent by the API.
 - Arrow panel of images for each property
 
 ## Installation
+
+These instructions will get you a local copy of this project running on your machine for development and testing purposes.
 
 1. Clone this project
 
