@@ -1,6 +1,8 @@
-# Real estate web application (ProRealtors)
+# ProRealtors
 
-## A web application for searching for properties in the UAE
+A web application for searching for properties in the UAE
+
+## Description
 
 This project was built using React.js and Next.js. Developed this project to improve my front-end skills and learn how to pull from a public API.
 Also learned how to read and work with JSON data that is sent by the API.
@@ -10,7 +12,7 @@ Also learned how to read and work with JSON data that is sent by the API.
 - Basic React components from ChakraUI
 - Used Axios to pull data from RapidAPI
 
-## How to install this Real estate web application
+## Installation
 
 1. Clone this project
 2. Install Node.js and npm
@@ -23,3 +25,7 @@ Also learned how to read and work with JSON data that is sent by the API.
 ### `npm run dev`
 
 4. Open it in http://localhost:3000 to view in browser.
+
+## Authors
+
+- [Brandon Tieu](https://github.com/brandontieu626)
